@@ -37,19 +37,16 @@ type Config = {
   };
 };
 
-const DEFAULT_CONFIG = {
+const DEFAULT_CONFIG: Config = {
   basePoint: {
-    ui: 1.5,
-    api: 2,
+    ui: 0.6,
+    api: 0.7,
     model: 1.5,
-    lib: 2.5,
-    route: 1,
-    shared: 3,
   },
   layerWeight: {
-    shared: 1.2,
-    entities: 1,
-    features: 0.8,
+    shared: 1.5,
+    entities: 0.8,
+    features: 1.3,
     widgets: 0.5,
     pages: 0,
     app: 0.3,
@@ -77,7 +74,7 @@ function loadConfig() {
   return DEFAULT_CONFIG;
 }
 
-const sliceTypes = ["ui", "api", "model", "lib", "route", "shared"];
+const sliceTypes = ["ui", "api", "model"];
 const complexities = ["low", "medium", "high"];
 const layers = ["shared", "entities", "features", "widgets", "pages", "app"];
 
