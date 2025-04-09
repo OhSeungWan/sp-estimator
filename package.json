@@ -1,6 +1,10 @@
 {
   "name": "sp-estimator",
   "version": "1.0.9",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OhSeungWan/sp-estimator"
+  },
   "description": "FSD 기반 스토리포인트 계산기 CLI",
   "main": "bin/cli.js",
   "bin": {
