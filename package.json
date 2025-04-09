@@ -1,0 +1,27 @@
+{
+  "name": "sp-estimator",
+  "version": "1.0.9",
+  "description": "FSD 기반 스토리포인트 계산기 CLI",
+  "main": "bin/cli.js",
+  "bin": {
+    "sp-estimator": "bin/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node bin/cli.js"
+  },
+  "keywords": [
+    "storypoint",
+    "FSD",
+    "CLI"
+  ],
+  "author": "완자님",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.6"
+  }
+}

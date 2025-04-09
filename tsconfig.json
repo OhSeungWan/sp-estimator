@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS", // CLI 배포에는 CommonJS가 안정적
+    "outDir": "bin",
+    "rootDir": "src",
+    "esModuleInterop": true,
+    "strict": true
+  },
+
+  "include": ["src"]
+}
